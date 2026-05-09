@@ -4,6 +4,8 @@
 
 ![Status](https://img.shields.io/badge/Status-Live-brightgreen) ![React](https://img.shields.io/badge/React-18-blue) ![FastAPI](https://img.shields.io/badge/FastAPI-Python-green) ![GPT-4o](https://img.shields.io/badge/OpenAI-GPT--4o--mini-orange)
 
+🔗 Live Demo: https://codeatlas-ten.vercel.app/
+
 ## What It Does
 
 CodeAtlas analyzes any public GitHub repository and gives you:
