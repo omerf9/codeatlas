@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: codeatlas
+    runtime: python
+    pythonVersion: "3.11"
+    rootDir: codeatlas/codeatlas/backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: GITHUB_TOKEN
+        sync: false
